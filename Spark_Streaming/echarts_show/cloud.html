@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WordCloud Demo</title>
+  <script type="text/javascript" src="echarts/echarts.js"></script>
+  <script type="text/javascript" src="echarts/echarts-gl.min.js"></script>
+  <script type="text/javascript" src="echarts/echarts-wordcloud.min.js"></script>
+  <script type="text/javascript" src="echarts/china.js"></script>
+  <script type="text/javascript" src="echarts/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./img.js"></script>
+  <script type="text/javascript" src="./data.js"></script>
+  <script type="text/javascript" src="./js/city.js"></script>
+</head>
+<body>
+   <div class="container">
+       <div id="time" style="width: 70%; height: 600px"></div>
+   </div>
+  <div class="container">
+    <img src="./mask2.jpg">
+    <div id="main" style="width: 750px; height: 800px"></div>
+  </div>
+  <div class="container">
+    <div id="gender" style="width: 600px ; height: 500px"></div>
+  </div>
+  <div class="container">
+    <div id="age" style="width: 40% ; height: 500px"></div>
+    <div id="year" style="width: 40% ; height: 500px"></div>
+  </div>
+  <div class="container">
+    <div id="emoji" style="width: 100%; height: 600px"></div>
+  </div>
+  <div class="container">
+    <div id="myChart" style="width: 100%; height: 800px"></div>
+  </div>
+   <script type="text/javascript" src="./js/time.js"></script>
+  <script type="text/javascript" src="./js/wordcloud.js"></script>
+  <script type="text/javascript" src="./js/map.js"></script>
+  <script type="text/javascript" src="./js/gender.js"></script>
+  <script type="text/javascript" src="./js/age.js"></script>
+  <script type="text/javascript" src="./js/year.js"></script>
+  <script type="text/javascript" src="./js/emoji.js"></script>
+</body>
+<style>
+  .container{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center
+  }
+  .container img{
+    width: 450px;
+    height: 580px;
+  }
+</style>
+</html>
